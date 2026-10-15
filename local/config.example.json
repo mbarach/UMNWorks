@@ -1,0 +1,7 @@
+{
+  "name": "Your Name as it appears in Works",
+  "resume": "/absolute/path/to/your/cv.pdf",
+  "website": "",
+  "international_rule": "outside_us",
+  "international_note": "Yes only when the activity took place outside the United States; virtual events are No."
+}

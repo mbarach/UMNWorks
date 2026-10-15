@@ -1,0 +1,133 @@
+{
+ "937449": {
+  "kind": "publication",
+  "venue_field": "Journal/Publisher/Proceedings Publisher",
+  "status_field": "Current Status",
+  "year_fields": [
+   "Year, Date Published",
+   "Year, Date Accepted",
+   "Year, Date of Last/Most Recent Submission",
+   "Year, Date of First Submission",
+   "Year, Draft Start Date"
+  ]
+ },
+ "937611": {
+  "kind": "presentation",
+  "venue_field": "Conference/Meeting Name",
+  "year_fields": [
+   "Year, Date"
+  ],
+  "month_field": "Month, Date"
+ },
+ "936911": {
+  "kind": "honor",
+  "venue_field": "Name of Awarding Organization/Sponsor",
+  "year_fields": [
+   "Year, Date"
+  ],
+  "month_field": "Month, Date"
+ },
+ "937807": {
+  "kind": "service",
+  "venue_field": "Organization/Committee/ Conference/Publication Name",
+  "year_fields": [
+   "Year, Start Date",
+   "Year, End Date"
+  ],
+  "role_field": "Position/Role"
+ },
+ "937757": {
+  "kind": "service",
+  "venue_field": "Name (e.g. committee, organization, etc.)",
+  "year_fields": [
+   "Year, Start Date",
+   "Year, End Date"
+  ],
+  "role_field": "Position/Role"
+ },
+ "937875": {
+  "kind": "service",
+  "venue_field": "Organization/Committee/Club",
+  "year_fields": [
+   "Year, Start Date",
+   "Year, End Date"
+  ],
+  "role_field": "Position/Role/Activity"
+ },
+ "1382407": {
+  "kind": "grant",
+  "venue_field": "Sponsoring Organization",
+  "year_fields": [
+   "Year, Start Date of Funding",
+   "Year, Date Proposal Submitted"
+  ]
+ },
+ "936862": {
+  "kind": "position",
+  "venue_field": "Institution",
+  "year_fields": [
+   "Year, Start Date"
+  ]
+ },
+ "936967": {
+  "kind": "education",
+  "venue_field": "Institution",
+  "year_fields": [
+   "Year, Date Completed"
+  ]
+ },
+ "1783268": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Leaves and Sabbaticals (field audit only; not synced from the resume)"
+ },
+ "937014": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Professional Development and Mentoring Received (field audit only; not synced from the resume)"
+ },
+ "937176": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Other Instructional Activity (field audit only; not synced from the resume)"
+ },
+ "1888336": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Doctoral and Postdoctoral Placement (field audit only; not synced from the resume)"
+ },
+ "1331951": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "My Advisees (field audit only; not synced from the resume)"
+ },
+ "1943801": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Committee Advising (field audit only; not synced from the resume)"
+ },
+ "937119": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Other Student Advising (field audit only; not synced from the resume)"
+ },
+ "936938": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Consulting and Outside Professional Commitments (field audit only; not synced from the resume)"
+ },
+ "937067": {
+  "kind": "other",
+  "venue_field": "",
+  "year_fields": [],
+  "note": "Media Appearances and Interviews (field audit only; not synced from the resume)"
+ }
+}

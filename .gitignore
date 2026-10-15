@@ -1,0 +1,8 @@
+.DS_Store
+local/*
+!local/README.md
+!local/config.example.json
+__pycache__/
+.superpowers/
+docs/guidelines/*.txt
+.Rhistory

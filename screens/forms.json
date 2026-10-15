@@ -1,0 +1,1114 @@
+{
+ "937611": {
+  "name": "Presentations",
+  "add": "drawer",
+  "fields": [
+   {
+    "name": "Also print to CV?",
+    "prefix": "_report_include-",
+    "type": "checkbox",
+    "options": [],
+    "required": false,
+    "default": true,
+    "note": "Works ticks this by default; untick only to keep the record off CV reports"
+   },
+   {
+    "name": "Related to Teaching and Learning?",
+    "prefix": "_related_teaching-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Presentation Type",
+    "prefix": "_presentation_type-",
+    "type": "combo",
+    "options": [
+     "Demonstration",
+     "Didactic Seminar",
+     "Exhibit",
+     "Keynote/Plenary Address",
+     "Lecture",
+     "Paper",
+     "Podium",
+     "Poster",
+     "Presentation/Talk",
+     "Reading of Creative Work/Performance",
+     "Other"
+    ],
+    "required": true
+   },
+   {
+    "name": "Conference/Meeting Name",
+    "prefix": "_name-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Sponsoring Organization",
+    "prefix": "_org-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "City",
+    "prefix": "_city-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "State",
+    "prefix": "_state-",
+    "type": "combo",
+    "options": [],
+    "required": false,
+    "note": "US states list (56 options); leave blank outside the US"
+   },
+   {
+    "name": "Country",
+    "prefix": "_country-",
+    "type": "combo",
+    "options": [],
+    "required": false,
+    "note": "Long country list; not captured"
+   },
+   {
+    "name": "Presentation Title",
+    "prefix": "_title-",
+    "type": "text",
+    "options": [],
+    "required": true
+   },
+   {
+    "name": "URL",
+    "prefix": "_url-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Presenters/Authors",
+    "prefix": "__people__",
+    "type": "note",
+    "options": [],
+    "required": false,
+    "note": "Works adds rows for presenters; the first row is you. Co-presenters are added on the form after creation (not automated yet)."
+   },
+   {
+    "name": "Meeting Type",
+    "prefix": "_meeting_type-",
+    "type": "combo",
+    "options": [
+     "Conference",
+     "Forum",
+     "Panel",
+     "Roundtable",
+     "Seminar",
+     "Session",
+     "Symposium",
+     "Workshop",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "Scale",
+    "prefix": "_scope-",
+    "type": "combo",
+    "options": [
+     "International",
+     "National",
+     "Regional",
+     "State",
+     "Local"
+    ],
+    "required": false
+   },
+   {
+    "name": "Was this peer-reviewed/refereed?",
+    "prefix": "_refereed-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Invited?",
+    "prefix": "_invited-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "AACSB Classification",
+    "prefix": "_classification-",
+    "type": "combo",
+    "options": [
+     "Basic or Discovery Scholarship",
+     "Applied or Integration/Application Scholarship",
+     "Teaching and Learning Scholarship"
+    ],
+    "required": false
+   },
+   {
+    "name": "Date",
+    "prefix": "date",
+    "type": "date",
+    "options": [],
+    "required": true,
+    "note": "Single event: this is the only date (Quick Start Guide) · Every record needs a date (Quick Start Guide)"
+   },
+   {
+    "name": "Was/is this an international activity?",
+    "prefix": "_international-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Was this activity extension-related?",
+    "prefix": "_extension_activity-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Does this activity involve a community or other outside entity?",
+    "prefix": "_community-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   }
+  ]
+ },
+ "937449": {
+  "name": "Publications and Other Intellectual Contributions",
+  "add": "drawer",
+  "fields": [
+   {
+    "name": "Also print to CV?",
+    "prefix": "_report_include-",
+    "type": "checkbox",
+    "options": [],
+    "required": false,
+    "default": true,
+    "note": "Works ticks this by default; untick only to keep the record off CV reports"
+   },
+   {
+    "name": "Title of Contribution",
+    "prefix": "_title-",
+    "type": "text",
+    "options": [],
+    "required": true
+   },
+   {
+    "name": "Book Subtitle, if applicable",
+    "prefix": "_subtitle-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Title of Larger Work, if applicable (e.g., a chapter in a book)",
+    "prefix": "_title_secondary-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "AACSB Classification",
+    "prefix": "_classification-",
+    "type": "combo",
+    "options": [
+     "Basic or Discovery Scholarship",
+     "Applied or Integration/Application Scholarship",
+     "Teaching and Learning Scholarship"
+    ],
+    "required": false
+   },
+   {
+    "name": "For Conference Proceedings, include Conference Detail",
+    "prefix": "_present_detail-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Current Status",
+    "prefix": "_status-",
+    "type": "combo",
+    "options": [
+     "Accepted",
+     "In Preparation; Not Yet Submitted",
+     "Not Accepted",
+     "Online Publication ahead of Print (Preprint)",
+     "Published",
+     "Revising to Resubmit",
+     "Submitted",
+     "Working Paper"
+    ],
+    "required": true,
+    "note": "Required to save (Publications guide)"
+   },
+   {
+    "name": "If Current Status is \"Revising to Resubmit\", indicate the revision status",
+    "prefix": "_revision_status-",
+    "type": "combo",
+    "options": [
+     "Revision Requested 1",
+     "Revised and Resubmitted 1",
+     "Revision Requested 2",
+     "Revised and Resubmitted 2",
+     "Revision Requested 3",
+     "Revised and Resubmitted 3",
+     "Revision Requested 4",
+     "Revised and Resubmitted 4",
+     "Revision Requested 5",
+     "Revised and Resubmitted 5",
+     "Revision Requested 5 +",
+     "Revised and Resubmitted 5 +"
+    ],
+    "required": false
+   },
+   {
+    "name": "Contribution Type",
+    "prefix": "_contype-",
+    "type": "combo",
+    "options": [
+     "Abstract",
+     "Blog",
+     "Book",
+     "Book Chapter",
+     "Book Review",
+     "Broadcast Media",
+     "Case Review",
+     "Catalogue",
+     "Compact Disc (CD)",
+     "Conference Proceeding",
+     "Correction",
+     "Curated Exhibition",
+     "Editorial Material",
+     "Educational Material",
+     "Extension Bulletin",
+     "Instructor's Manual",
+     "Interview",
+     "Journal Article",
+     "Law Review",
+     "Magazine/Trade Publication",
+     "Material Regarding New Courses/Curricula",
+     "Monograph",
+     "Newsletter",
+     "Newspaper",
+     "Podcast",
+     "Review Essay",
+     "Review of Performance/Exhibition",
+     "Software",
+     "Software, Instructional",
+     "Study Guide",
+     "Technical Report",
+     "Textbook",
+     "Translation or Transcription",
+     "Webinar",
+     "Website",
+     "Working Paper",
+     "Written Case with Instructional Material",
+     "Other"
+    ],
+    "required": true,
+    "note": "Required to save (Publications guide)"
+   },
+   {
+    "name": "Draft Start Date",
+    "prefix": "draftstart",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "Month dropdown, Day and Year typed"
+   },
+   {
+    "name": "Date of First Submission",
+    "prefix": "firstsub",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "Month dropdown, Day and Year typed"
+   },
+   {
+    "name": "Date of Last/Most Recent Submission",
+    "prefix": "sub",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "Month dropdown, Day and Year typed"
+   },
+   {
+    "name": "Expected Date of Next Submission",
+    "prefix": "expsub",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "Month dropdown, Day and Year typed"
+   },
+   {
+    "name": "Date Accepted",
+    "prefix": "acc",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "Month and Year only"
+   },
+   {
+    "name": "Date Published",
+    "prefix": "pub",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "At least one date is required to save (Publications guide)"
+   },
+   {
+    "name": "Series",
+    "prefix": "_title_series-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Your Role (for multi-author publications)",
+    "prefix": "_role_desc-",
+    "type": "text",
+    "options": [],
+    "required": false,
+    "note": "Describe your contribution: corresponding author, conceptualization, data, analysis (Publications guide, annotations)"
+   },
+   {
+    "name": "Journal/Publisher/Proceedings Publisher",
+    "prefix": "_publisher-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "City and State of Journal/Publisher",
+    "prefix": "_pubctyst-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Country of Journal/Publisher",
+    "prefix": "_pubcntry-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Chapter Number",
+    "prefix": "_chapter_num-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Volume",
+    "prefix": "_volume-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Issue Number/Edition",
+    "prefix": "_issue-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Page Numbers or Number of Pages",
+    "prefix": "_pagenum-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Public URL",
+    "prefix": "_web_address-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Digital Object Identifier (DOI)",
+    "prefix": "_doi-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "ISBN",
+    "prefix": "_isbn-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "ISSN",
+    "prefix": "_issn-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "PubMed ID Number",
+    "prefix": "_pmid-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "PubMed Central ID Number",
+    "prefix": "_pmcid-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Technical Report Number",
+    "prefix": "_techreport_num-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Authors",
+    "prefix": "__people__",
+    "type": "note",
+    "options": [],
+    "required": false,
+    "note": "Works adds author rows; the first row is you. Co-authors are added on the form after creation (not automated yet)."
+   },
+   {
+    "name": "Was this peer-reviewed/refereed?",
+    "prefix": "_refereed-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "AACSB: Was this contribution editorially reviewed?",
+    "prefix": "_editorial_reviewed-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Do you want to tag this record as a teaching or teaching development publication?",
+    "prefix": "_teaching_pub-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Related to Teaching and Learning?",
+    "prefix": "_related_teaching-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Was this activity extension-related?",
+    "prefix": "_extension_activity-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   }
+  ],
+  "require_one_of": [
+   "Draft Start Date",
+   "Date of First Submission",
+   "Date of Last/Most Recent Submission",
+   "Expected Date of Next Submission",
+   "Date Accepted",
+   "Date Published"
+  ]
+ },
+ "936911": {
+  "name": "Honors and Recognition",
+  "add": "drawer",
+  "fields": [
+   {
+    "name": "Also print to CV?",
+    "prefix": "_report_include-",
+    "type": "checkbox",
+    "options": [],
+    "required": false,
+    "default": true,
+    "note": "Works ticks this by default; untick only to keep the record off CV reports"
+   },
+   {
+    "name": "Related to Teaching and Learning?",
+    "prefix": "_related_teaching-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Award or Honor Name",
+    "prefix": "_name-",
+    "type": "text",
+    "options": [],
+    "required": true
+   },
+   {
+    "name": "Additional Title, if applicable",
+    "prefix": "_title-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Name of Awarding Organization/Sponsor",
+    "prefix": "_org-",
+    "type": "text",
+    "options": [],
+    "required": true
+   },
+   {
+    "name": "Category of Award",
+    "prefix": "_purpose-",
+    "type": "combo",
+    "options": [
+     "Leadership",
+     "Teaching",
+     "Clinical",
+     "Professional Practice",
+     "Scholarship/Research",
+     "Service, Community",
+     "Service, Professional",
+     "Service, University",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "Awarded or Nominated?",
+    "prefix": "_nomrec-",
+    "type": "combo",
+    "options": [
+     "Awarded",
+     "Nominated"
+    ],
+    "required": true
+   },
+   {
+    "name": "Scale",
+    "prefix": "_scale-",
+    "type": "combo",
+    "options": [
+     "International",
+     "Local",
+     "National",
+     "Regional",
+     "State"
+    ],
+    "required": false
+   },
+   {
+    "name": "Awarded to Student/Trainee",
+    "prefix": "_student_award-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Is this a University of Minnesota award or honor?",
+    "prefix": "_umn_award-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": true
+   },
+   {
+    "name": "Date",
+    "prefix": "date",
+    "type": "date",
+    "options": [],
+    "required": true,
+    "note": "Calendar year of award/nomination required; single event, so this is the only date · Every record needs a date (Quick Start Guide)"
+   },
+   {
+    "name": "Annotation",
+    "prefix": "__annotation__",
+    "type": "note",
+    "options": [],
+    "required": false,
+    "note": "Rich-text box on the form (prints to reports); type it on the form after creation if wanted"
+   }
+  ]
+ },
+ "937807": {
+  "name": "Discipline/Profession/Interdisciplinary Areas (service)",
+  "add": "drawer",
+  "fields": [
+   {
+    "name": "Also print to CV?",
+    "prefix": "_report_include-",
+    "type": "checkbox",
+    "options": [],
+    "required": false,
+    "default": true,
+    "note": "Works ticks this by default; untick only to keep the record off CV reports"
+   },
+   {
+    "name": "Related to Teaching and Learning?",
+    "prefix": "_related_teaching-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Organization/Committee/ Conference/Publication Name",
+    "prefix": "_org-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Position/Role",
+    "prefix": "_role-",
+    "type": "combo",
+    "options": [
+     "Ad Hoc Reviewer",
+     "Area Editor",
+     "Attending Faculty",
+     "Board of Advisors",
+     "Board of Directors",
+     "Chair",
+     "Co-chair",
+     "Co-director",
+     "Co-editor",
+     "Co-Founder",
+     "Coordinator",
+     "Director",
+     "Discussant",
+     "Editor",
+     "Editorial Board Member",
+     "Founder",
+     "Grant Reviewer",
+     "Member",
+     "Moderator",
+     "Multiple Other",
+     "Officer",
+     "Organizer",
+     "Panelist",
+     "President",
+     "President Elect",
+     "Referee",
+     "Reviewer",
+     "Secretary",
+     "Session Chair",
+     "Track Chair",
+     "Treasurer",
+     "Vice President",
+     "Visiting Scholar Host",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "City",
+    "prefix": "_city-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "State",
+    "prefix": "_state-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Country",
+    "prefix": "_country-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Approx. Number of Hours Spent Per Year",
+    "prefix": "_numhours_yearly-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Were you elected or appointed?",
+    "prefix": "_elecapp-",
+    "type": "combo",
+    "options": [
+     "Yes, appointed",
+     "Yes, elected",
+     "No, neither"
+    ],
+    "required": false
+   },
+   {
+    "name": "AACSB: If this activity contributes to professional practice standards or public policy, provide a classification",
+    "prefix": "_classification-",
+    "type": "combo",
+    "options": [
+     "Basic or Discovery Scholarship",
+     "Applied or Integration/Application Scholarship",
+     "Teaching and Learning Scholarship"
+    ],
+    "required": false
+   },
+   {
+    "name": "Start Date",
+    "prefix": "start",
+    "type": "date",
+    "options": [],
+    "required": true,
+    "note": "Start only = ongoing (Quick Start Guide) · Every record needs a date (Quick Start Guide)"
+   },
+   {
+    "name": "End Date",
+    "prefix": "end",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "End only = single event; both = a span"
+   },
+   {
+    "name": "Was/is this an international activity?",
+    "prefix": "_international-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Was this activity extension-related?",
+    "prefix": "_extension_activity-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   }
+  ]
+ },
+ "937757": {
+  "name": "University/Department (service)",
+  "add": "drawer",
+  "fields": [
+   {
+    "name": "Also print to CV?",
+    "prefix": "_report_include-",
+    "type": "checkbox",
+    "options": [],
+    "required": false,
+    "default": true,
+    "note": "Works ticks this by default; untick only to keep the record off CV reports"
+   },
+   {
+    "name": "Related to Teaching and Learning?",
+    "prefix": "_related_teaching-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Service Level",
+    "prefix": "_type-",
+    "type": "combo",
+    "options": [
+     "Department",
+     "College",
+     "Campus",
+     "University"
+    ],
+    "required": false
+   },
+   {
+    "name": "Position/Role",
+    "prefix": "_role-",
+    "type": "combo",
+    "options": [
+     "Advisor",
+     "Chair",
+     "Coordinator",
+     "Interviewer",
+     "Member",
+     "Organizer",
+     "Peer Evaluator of Teaching",
+     "Reviewer",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "Institution",
+    "prefix": "_institution-",
+    "type": "combo",
+    "options": [
+     "University of Minnesota",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "Name (e.g. committee, organization, etc.)",
+    "prefix": "_org-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Approx. Number of Hours Spent Per Year",
+    "prefix": "_numhours-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "AACSB: If this activity contributes to professional practice standards or public policy, provide a classification",
+    "prefix": "_classification-",
+    "type": "combo",
+    "options": [
+     "Basic or Discovery Scholarship",
+     "Applied or Integration/Application Scholarship",
+     "Teaching and Learning Scholarship"
+    ],
+    "required": false
+   },
+   {
+    "name": "Start Date",
+    "prefix": "start",
+    "type": "date",
+    "options": [],
+    "required": true,
+    "note": "Start only = ongoing (Quick Start Guide) · Every record needs a date (Quick Start Guide)"
+   },
+   {
+    "name": "End Date",
+    "prefix": "end",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "End only = single event; both = a span"
+   },
+   {
+    "name": "Was/is this an international activity?",
+    "prefix": "_international-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Was this activity extension-related?",
+    "prefix": "_extension_activity-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   }
+  ]
+ },
+ "937875": {
+  "name": "Public/External/Community (service)",
+  "add": "drawer",
+  "fields": [
+   {
+    "name": "Also print to CV?",
+    "prefix": "_report_include-",
+    "type": "checkbox",
+    "options": [],
+    "required": false,
+    "default": true,
+    "note": "Works ticks this by default; untick only to keep the record off CV reports"
+   },
+   {
+    "name": "Related to Teaching and Learning?",
+    "prefix": "_related_teaching-",
+    "type": "checkbox",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Position/Role/Activity",
+    "prefix": "_role-",
+    "type": "text",
+    "options": [],
+    "required": true
+   },
+   {
+    "name": "Explanation of \"Other\"",
+    "prefix": "_roleother-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Organization/Committee/Club",
+    "prefix": "_org-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "What type of organization/committee/club is involved?",
+    "prefix": "_entity_type-",
+    "type": "combo",
+    "options": [
+     "Other higher education institution(s)",
+     "Government agency",
+     "K-12 schools or other non-higher education agency/agencies",
+     "Healthcare organization",
+     "For-profit business and/or industry",
+     "Non-profit and/or registered 501(c) organization",
+     "Community group (e.g. neighborhood association, informal citizens group)",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "City",
+    "prefix": "_city-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Minnesota region / county",
+    "prefix": "_county-",
+    "type": "checkgroup",
+    "options": [],
+    "required": false,
+    "note": "87 county and 7 region checkboxes on the form; tick on the form after creation if relevant"
+   },
+   {
+    "name": "State(s)",
+    "prefix": "_state-",
+    "type": "checkgroup",
+    "options": [],
+    "required": false,
+    "note": "One checkbox per US state on the form; tick on the form after creation"
+   },
+   {
+    "name": "Area",
+    "prefix": "_area-",
+    "type": "checkgroup",
+    "options": [
+     "Arts",
+     "Diversity, Equity, and/or Inclusion",
+     "Economic Development and/or Workforce Capacity",
+     "Environment and/or Sustainability",
+     "Food and/or Food Systems",
+     "Health",
+     "Education and/or Human Life Course",
+     "Other"
+    ],
+    "required": false
+   },
+   {
+    "name": "Explanation of \"Other\" (area)",
+    "prefix": "_area_other-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "Approx. Number of Hours Spent Per Year",
+    "prefix": "_numhours-",
+    "type": "text",
+    "options": [],
+    "required": false
+   },
+   {
+    "name": "AACSB: If this activity contributes to professional practice standards or public policy, provide a classification",
+    "prefix": "_classification-",
+    "type": "combo",
+    "options": [
+     "Basic or Discovery Scholarship",
+     "Applied or Integration/Application Scholarship",
+     "Teaching and Learning Scholarship"
+    ],
+    "required": false
+   },
+   {
+    "name": "Start Date",
+    "prefix": "start",
+    "type": "date",
+    "options": [],
+    "required": true,
+    "note": "Start only = ongoing (Quick Start Guide) · Every record needs a date (Quick Start Guide)"
+   },
+   {
+    "name": "End Date",
+    "prefix": "end",
+    "type": "date",
+    "options": [],
+    "required": false,
+    "note": "End only = single event; both = a span"
+   },
+   {
+    "name": "Was/is this an international activity?",
+    "prefix": "_international-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   },
+   {
+    "name": "Was this activity extension-related?",
+    "prefix": "_extension_activity-",
+    "type": "combo",
+    "options": [
+     "Yes",
+     "No"
+    ],
+    "required": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "937611": {
+  "Presentation Title": {
+   "from": "title"
+  },
+  "Conference/Meeting Name": {
+   "from": "venue"
+  },
+  "Date": {
+   "date": "date",
+   "note": "Single event: Works wants just this date (Quick Start Guide, dates)"
+  },
+  "City": {
+   "from": "place"
+  },
+  "Presenters/Authors": {
+   "people": true
+  },
+  "Was/is this an international activity?": {
+   "intl": true
+  },
+  "AACSB Classification": {
+   "const": "Basic or Discovery Scholarship",
+   "note": "Default for research talks; change if applied or teaching"
+  },
+  "Presentation Type": {
+   "const": "Presentation/Talk"
+  }
+ },
+ "937449": {
+  "Title of Contribution": {
+   "from": "title"
+  },
+  "Journal/Publisher/Proceedings Publisher": {
+   "from": "venue"
+  },
+  "Current Status": {
+   "status": true,
+   "note": "Required to save (Publications guide)"
+  },
+  "Contribution Type": {
+   "const": "Journal Article",
+   "note": "Required to save (Publications guide); change for books, chapters, proceedings"
+  },
+  "AACSB Classification": {
+   "const": "Basic or Discovery Scholarship"
+  },
+  "Date Published": {
+   "date": "pub",
+   "if_status": [
+    "published",
+    "accepted"
+   ],
+   "note": "At least one date is required (Publications guide)"
+  },
+  "Date of Last/Most Recent Submission": {
+   "date": "sub",
+   "if_status": [
+    "submitted",
+    "revise-and-resubmit"
+   ],
+   "note": "At least one date is required (Publications guide)"
+  },
+  "Draft Start Date": {
+   "date": "draftstart",
+   "if_status": [
+    "working",
+    "in-preparation",
+    ""
+   ],
+   "note": "At least one date is required (Publications guide)"
+  },
+  "Authors": {
+   "people": true
+  },
+  "Your Role (for multi-author publications)": {
+   "const": "",
+   "note": "Multi-author paper: describe your contribution (Publications guide, annotations)"
+  }
+ },
+ "936911": {
+  "Award or Honor Name": {
+   "from": "title"
+  },
+  "Name of Awarding Organization/Sponsor": {
+   "from": "venue"
+  },
+  "Date": {
+   "date": "date",
+   "note": "Single event: Works wants just this date (Quick Start Guide, dates)"
+  },
+  "Awarded or Nominated?": {
+   "const": "Awarded",
+   "note": "Change to Nominated for finalist/nominee lines if you prefer"
+  },
+  "Category of Award": {
+   "const": "Scholarship/Research",
+   "note": "Default; change for teaching or service awards"
+  }
+ },
+ "937807": {
+  "Position/Role": {
+   "from": "title"
+  },
+  "Organization/Committee/ Conference/Publication Name": {
+   "from": "venue"
+  },
+  "Start Date": {
+   "date": "start",
+   "note": "Start only = ongoing (Quick Start Guide)"
+  },
+  "End Date": {
+   "date": "end"
+  },
+  "Was/is this an international activity?": {
+   "intl": true
+  },
+  "AACSB: If this activity contributes to professional practice standards or public policy, provide a classification": {
+   "const": "Basic or Discovery Scholarship"
+  }
+ },
+ "937757": {
+  "Position/Role": {
+   "from": "title"
+  },
+  "Name (e.g. committee, organization, etc.)": {
+   "from": "venue"
+  },
+  "Institution": {
+   "const": "University of Minnesota"
+  },
+  "Start Date": {
+   "date": "start",
+   "note": "Start only = ongoing (Quick Start Guide)"
+  },
+  "End Date": {
+   "date": "end"
+  },
+  "Was/is this an international activity?": {
+   "intl": true
+  }
+ },
+ "937875": {
+  "Position/Role/Activity": {
+   "from": "title"
+  },
+  "Organization/Committee/Club": {
+   "from": "venue"
+  },
+  "City": {
+   "from": "place"
+  },
+  "Start Date": {
+   "date": "start",
+   "note": "Start only = ongoing (Quick Start Guide)"
+  },
+  "End Date": {
+   "date": "end"
+  },
+  "Was/is this an international activity?": {
+   "intl": true
+  }
+ }
+}
